@@ -1,0 +1,113 @@
+
+:root {
+    --1: black;
+    --2: white;
+    --3: rgb(106, 106, 106);
+    --4: rgb(27, 117, 43);
+
+    --f1: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--1);
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.image {
+    width: 35vw;
+    height: auto;
+}
+
+form {
+    width: 35vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+input {
+    height: 5vh;
+    width: 35vw;
+    margin: 20px 0;
+    font-size: var(--f1);
+    text-indent: 10px;
+    color: var(--1);
+}
+
+.submit {
+    height: 5vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#x {
+    text-decoration: none;
+    font-size: var(--f1);
+    color: var(--4);
+    border: 1px solid var(--4);
+    padding: 10px 20px;
+}
+
+a:visited {
+    color: var(--2);
+    text-decoration: none;
+}
+
+
+::placeholder {
+    font-size: var(--f1);
+    color: var(--3);
+}
+
+#x:hover {
+    background-color: var(--4);
+    color: var(--2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

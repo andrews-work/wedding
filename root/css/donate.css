@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --1: rgb(0, 0, 0);
+    --2: rgb(255, 255, 255);
+    --3: rgb(21, 93, 15);
+    --4: rgb(255, 87, 3);
+}
+
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1.2px;
+    background-color: var(--3);
+    color: var(--2)
+}
+
+main {
+    width: 50vw;
+
+}
+
+header{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 80px;
+
+}
+
+
+main img {
+    height: 55vh;
+    width: 50vw;
+}
+
+p {
+    font-size: 30px;
+}
+
+
+.section1 p {
+    margin: 150px 0;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.section2 img{
+    height: 820px;
+    width: 550px;
+}
+
+aside {
+    height: 820px;
+    width: 550px;
+}
+
+.section3 {
+    margin: 100px 0;
+    text-align: center;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section4 img {
+    height: auto;
+    width: 500px;
+}
+
+.section5 img {
+    height: auto;
+    width: 500px;
+}
+
+                
+footer {
+    height: 30vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--2);
+    font-size: 30px;
+}
+
+footer a {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--1)
+}
+
+footer a:visited {
+    color: var(--2);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:rgb(21, 93, 15);
+    border: 1px black solid;
+}

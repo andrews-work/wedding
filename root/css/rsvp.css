@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+:root {
+    --1: rgb(0, 0, 0);
+    --2: rgb(255, 255, 255);
+    --3: rgb(31, 132, 22);
+    --4: rgb(190, 39, 39);
+
+    --f1: 60px;
+    --f2: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--1);
+
+    display: flex;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+
+}
+
+
+header {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--f1);
+    color: var(--2);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: var(--2);
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--f1);
+}
+
+
+.yes a {
+    color: var(--3);
+}
+
+.no a {
+    color: var(--4);
+}
+
+.yes a:hover {
+    border-bottom: 1px solid var(--3);
+}
+
+.no a:hover {
+    border-bottom: 1px solid var(--4);
+}
+
+
+section {
+    height: 70vh;
+    width: 60vw;
+}
+
+img {
+    height: 100%;
+    max-height: 70vh;
+    width: 60vw;
+    object-fit: contain;
+}
+
+.img {
+    position: absolute;
+    top: 50;
+    left: 50;
+    height: 100%;
+    max-height: 70vh;
+    width: 60vw;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+
+
+footer {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--f1);
+    color: var(--2);
+}
+
+
+
+

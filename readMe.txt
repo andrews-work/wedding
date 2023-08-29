@@ -1,3 +1,0 @@
-# Wedding RSVP
-
-## Yeah yeah

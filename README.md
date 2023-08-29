@@ -1,27 +1,12 @@
 # Wedding RSVP
 
-![wedding banner][root/images/wb.png']
+![wedding banner][root/images/wb.png]
 
 This is a website for a wedding RSVP inviation. 
 
 ---
 
-## Installation
----
-
-## Usage
-
----
-
 ## Features
-
----
-
-## Documentation 
-
----
-
-## Contributors
 
 ---
 
@@ -30,6 +15,22 @@ This is a website for a wedding RSVP inviation.
 ---
 
 ## License
+
+---
+
+## Contributors
+
+---
+
+## How to use
+
+---
+
+## Documentation 
+
+---
+
+## Installation
 
 ---
 

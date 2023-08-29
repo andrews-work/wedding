@@ -1,6 +1,6 @@
 # Wedding RSVP
 
-![wedding banner][root/images/weddingbanner.png']
+![wedding banner][root/images/wb.png']
 
 This is a website for a wedding RSVP inviation. 
 

@@ -1,4 +1,3 @@
-# Wedding RSVP
 
 ![Wedding Banner](./root/images/wb.png)
 
@@ -8,33 +7,63 @@ This is a website for a wedding RSVP inviation.
 
 ## Features
 
+- Form (front-end only), image slideshow
+
+- Home page:
+    - Simple design, show off main image
+    - List all basic information on home page (who, what, when, where, why)
+    - link to donate page, rsvp page
+
+- RSVP page:
+    - image slideshow
+    - link to donate page, home page, form page, no page
+
+- Donate page:
+    - link to external donation page and home page
+    - basic layout
+ 
+- Form page:
+    - basic form 
+    - link to rsvp page
+
 ---
 
 ## Credits
+
+None
 
 ---
 
 ## License
 
+None
+
 ---
 
 ## Contributors
+
+None
 
 ---
 
 ## How to use
 
+You don't
+
 ---
 
 ## Documentation 
+
+None
 
 ---
 
 ## Installation
 
+None
+
 ---
 
 ## Donations
 
-When invited to a wedding the guests purchase a gift for the couple. However this client wanted to raise money for humanitarian reasons. If you would like to contribute to this cause:
-[Donate now](www.ecosia.com "donate"){:target="_blank"}
+https://www.mycause.com.au/p/304887/bring-rohullahs-family-to-australia
